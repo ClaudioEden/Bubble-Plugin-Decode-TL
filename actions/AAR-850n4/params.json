@@ -1,0 +1,30 @@
+{
+    "category": "plugins",
+    "display": "Encode URL",
+    "fields": {
+        "AAQ": {
+            "caption": "Texto para codificar",
+            "doc": "Insira o texto que deseja codificar.",
+            "editor": "DynamicValue",
+            "long_text": false,
+            "name": "text_to_encode",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAa": {
+            "caption": "A Action Encode URL utiliza a função encodeURI() que é usada para codificar URI completo. Esta função codifica o caractere especial, exceto os caracteres (, / ? : @ & = + $ #).",
+            "name": "info:",
+            "rank": 1
+        }
+    },
+    "return_value": {
+        "AAE": {
+            "caption": "Texto codificado",
+            "name": "text_encoded",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}

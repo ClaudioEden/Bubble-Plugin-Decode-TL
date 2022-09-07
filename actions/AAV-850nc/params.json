@@ -1,0 +1,30 @@
+{
+    "category": "plugins",
+    "display": "Encode Component URL",
+    "fields": {
+        "AAU": {
+            "caption": "Texto para codificar",
+            "doc": "Insira o texto que deseja codificar. Esta função aceita o único parâmetro text_to_encode que é usado para conter a string que precisa ser codificada.",
+            "editor": "DynamicValue",
+            "long_text": false,
+            "name": "text_to_encode",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAZ": {
+            "caption": "Esta função é usada para codificar algumas partes ou componentes do URI. Esta função codifica os caracteres especiais. Além disso, ele codifica os seguintes caracteres: , / ? : @ & = + $ #.",
+            "name": "info:",
+            "rank": 1
+        }
+    },
+    "return_value": {
+        "AAE": {
+            "caption": "Texto codificado",
+            "name": "text_encoded",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}

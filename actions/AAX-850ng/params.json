@@ -1,0 +1,31 @@
+{
+    "category": "plugins",
+    "display": "Decode Component URL",
+    "fields": {
+        "AAW": {
+            "caption": "Texto para decodificar",
+            "doc": "Insira o texto que deseja decodificar. Esta função aceita um único parâmetro text_to_decode que é usado para conter a string que precisa ser decodificada.",
+            "editor": "DynamicValue",
+            "long_text": false,
+            "name": "text_to_decode",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAY": {
+            "caption": "Esta função é usada para DECODIFICAR algumas partes ou componentes do URI. Esta função decodifica os caracteres especiais. Além disso, ele decodifica os seguintes caracteres: , / ? : @ & = + $ #.",
+            "editor": "Label",
+            "name": "info:",
+            "rank": 1
+        }
+    },
+    "return_value": {
+        "AAE": {
+            "caption": "Texto decodificado",
+            "name": "text_decoded",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}
